@@ -1,0 +1,149 @@
+<resources>
+    <!-- General strings for the app -->
+    <string name="app_name">Tour Rapid City</string>
+    <string name="pres_activity_name">Pick A President</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_pres">Presidents</string>
+    <string name="tab_mss">Main Street Square</string>
+    <string name="tab_cp">City Parks</string>
+    <string name="tab_ttd">Things To Do</string>
+
+    <!-- Strings for the Home Page -->
+    <string name="rc_title">Welcome to Downtown Rapid City</string>
+    <string name="rc_body">Downtown Rapid City is the perfect weekend escape. Stay in centrally
+        located hotels with modern comfort or historic charm. Explore the numerous art galleries,
+        fashionable boutiques and array of eateries. You will find great entertainment, from music
+        to museums and plenty of fun for the whole family. Play in the fountains at Main Street
+        Square, a place to make fun-filled memories. With ample hotel rooms, over 80 shops and 30
+        restaurants, head Downtown, year round.</string>
+    <string name="rc_join_us">Join Us Downtown</string>
+    <string name="rc_join_us_body">Rapid City, South Dakota, is home to fantastic restaurants,
+        great shops and an awesome night-life...and the friendliest people around.</string>
+    <string name="rc_source_listing">Links, Images and Information used in this portion of the app
+        are obtained from the official Downtown Rapid City website.</string>
+
+    <!-- Strings for the Things To Do Portion -->
+    <string name="ttd_big_ttd">Big Things To Do</string>
+    <string name="ttd_title">Roam Like A Buffalo – There Is A Great Big World Outside Your
+        Door</string>
+    <string name="ttd_body">You can have it all, from adrenaline-charged outdoor activities to
+        thoughtful cultural pursuits and all the heart-stopping scenery in between. When you stay
+        in Rapid City, you are within an hours drive of six national parks and monuments and
+        surrounded by a local culture that is rich with history and artistic expression. In this
+        land where gemstones and natural wonders have been forming for eons, even the smallest
+        roadside stand holds the promise of a big discovery.</string>
+    <string name="ttd_source_listing">Links, Images and Information used in this portion of the
+        app are obtained from the official Visit Rapid City website, Things To Do webpage.</string>
+
+    <!-- Strings for the City Parks Portion -->
+    <string name="cp_intro">Rapid City is a prime location at the foot of the Black Hills which
+        makes it the ideal place for all types of outdoor recreation and adventures. From leisurely
+        hikes to kayaking to extreme mountain biking, you will find it all within the city limits
+        of Rapid City.</string>
+    <string name="cp_visit">Visit the official webpage of the City Parks</string>
+    <string name="cp_linking_text">The park system as it is set up today came around in large part
+        due to the Flood of 1972. </string>
+    <string name="cp_flood_text">The 1972 Black Hills Flood devastated Rapid City and surrounding
+        communities. More than ten inches of rain fell in just over six hours on June 9, 1972.
+        The failure of the dam at Canyon Lake sent water rushing through Rapid City. Raging waters
+        flowed through Rapid Creek and several other Black Hills streams, overflowing the stream
+        beds and sweeping trees, buildings and automobiles and other debris downstream. After flood
+        waters receded, 238 people were dead and over 3,000 injured.</string>
+    <string name="cp_flood_plain_text_one">Historic documents, newspaper articles, and websites show
+        the civic history of the Flood Plain creation and preservation. A flood plain is an area of
+        low-lying ground adjacent to a river, formed mainly of river sediments and subject to
+        flooding. The 1972 Flood was a natural disaster where homes were destroyed, lives lost, and
+        Rapid City forever changed.</string>
+    <string name="cp_flood_plain_text_two">In the years following the flood, the city government
+        relocated hundreds of families and businesses off of the Rapid Creek flood plain. The land
+        was then converted for parks and recreation usage to ensure the safety of future
+        generations. The Rapid City Greenway encompasses approximately 1,000 acres.</string>
+    <string name="cp_visit_history">More information about the history of the flood can be found at
+        the Black Hills Knowledge Network site.</string>
+    <string name="cp_source_listing">Links, Images and Information used in this portion of the
+        app are obtained from the official Visit Rapid City website and the Black Hills Knowledge
+        Network website.</string>
+
+    <!-- Strings for the Main Street Square Portion -->
+    <string name="mss_body">Main Street Square takes up one acre in Downtown Rapid City. During
+        the summer, an interactive fountain flows on an ambient setting. A roughlock waterfall and
+        rain curtain also flow during the warm months. During the winter, the green lawn is turned
+        into an ice skating rink measuring 7,200 square feet. Main Street Square hosts more than
+        200 events annually, and has private rental space available.</string>
+    <string name="mss_check_out">Check Out Our Events</string>
+    <string name="mss_bcycle">BCycle is an automated bike sharing system designed for use by many
+        people for short trips around town. There are currently two stations: Main Street Square in
+        Downtown Rapid City and on the South Dakota School of Mines and Technology Campus.</string>
+    <string name="mss_source_listing">Links, Images and Information used in this portion of the
+        app are obtained from the official Main Street Square in Downtown Rapid City
+        website.</string>
+
+    <!-- Strings for the President Portion -->
+    <string name="pres_main_title">Tour The City Of Presidents In Downtown Rapid City</string>
+    <string name="pres_main_body_one">Visitors to historic downtown Rapid City are greeted by the
+        City of Presidents, a series of life-size bronze statues of the past presidents of our
+        nation located along the streets and sidewalks. Whether you are enjoying downtown
+        shopping, dining or other attractions, you can enjoy these sculptures free.</string>
+    <string name="pres_main_body_two">The City of Presidents project began in 2000 to honor the
+        legacy of the American presidency. Each of the sculptures is privately funded, and the
+        pattern of placement was chosen to maintain a coherent structure and eliminate any sense of
+        favoritism or political gain. The City of Presidents is also a part of the Rapid City
+        Historic District Tour.</string>
+    <string name="pres_main_body_three">By clicking on the US Flag above you can scroll through the
+        list of presidents and select any you wish to have more information on. Or view the
+        Interactive Walking Guide below.</string>
+    <string name="pres_choose_text">Choose Your President</string>
+    <string name="pres_source_listing">Links, Images and Information used in this portion of the
+        app are obtained from the official Visit Rapid City website, City of Presidents
+        webpage.</string>
+    <string name="election">Election(s): </string>
+    <string name="term">Term as President: </string>
+    <string name="died">Died in office</string>
+    <string name="vice">Vice President who took over Office</string>
+    <string name="resigned">Resigned as President</string>
+    <string name="first">1st President</string>
+    <string name="second">2nd President</string>
+    <string name="third">3rd President</string>
+    <string name="fourth">4th President</string>
+    <string name="fifth">5th President</string>
+    <string name="sixth">6th President</string>
+    <string name="seventh">7th President</string>
+    <string name="eighth">8th President</string>
+    <string name="ninth">9th President</string>
+    <string name="tenth">10th President</string>
+    <string name="eleventh">11th President</string>
+    <string name="twelfth">12th President</string>
+    <string name="thirteenth">13th President</string>
+    <string name="fourteenth">14th President</string>
+    <string name="fifteenth">15th President</string>
+    <string name="sixteenth">16th President</string>
+    <string name="seventeenth">17th President</string>
+    <string name="eighteenth">18th President</string>
+    <string name="ninteenth">19th President</string>
+    <string name="twentieth">20th President</string>
+    <string name="twentifirst">21st President</string>
+    <string name="twentisecond">22nd President</string>
+    <string name="twentithird">23rd President</string>
+    <string name="twentifourth">24th President</string>
+    <string name="twentififth">25th President</string>
+    <string name="twentisixth">26th President</string>
+    <string name="twentiseventh">27th President</string>
+    <string name="twentieigth">28th President</string>
+    <string name="twentininth">29th President</string>
+    <string name="thirtieth">30th President</string>
+    <string name="thirtifirst">31st President</string>
+    <string name="thirtisecond">32nd President</string>
+    <string name="thirtithird">33rd President</string>
+    <string name="thirtifourth">34th President</string>
+    <string name="thirtififth">35th President</string>
+    <string name="thirtisixth">36th President</string>
+    <string name="thirtiseventh">37th President</string>
+    <string name="thirtieigth">38th President</string>
+    <string name="thirtininth">39th President</string>
+    <string name="fourtieth">40th President</string>
+    <string name="fourtifirst">41st President</string>
+    <string name="fourtisecond">42nd President</string>
+    <string name="fourtithird">43rd President</string>
+    <string name="fourtifourth">44th President</string>
+
+</resources>

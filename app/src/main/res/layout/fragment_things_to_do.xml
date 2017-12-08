@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tourrapidcity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ttd_photo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="4dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/ttd_big_ttd"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:text="@string/ttd_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorText"
+            android:text="@string/ttd_body"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/ttd_art_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/ttd_arts_culture"/>
+
+                <ImageView
+                    android:id="@+id/ttd_attraction_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ttd_attractions"/>
+
+                <ImageView
+                    android:id="@+id/ttd_bh_scenic_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ttd_bh_scenic_cruising"/>
+
+                <ImageView
+                    android:id="@+id/ttd_pres_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ttd_city_pres"/>
+
+                <ImageView
+                    android:id="@+id/ttd_city_tour_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ttd_city_tour"/>
+
+                <ImageView
+                    android:id="@+id/ttd_downtown_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ttd_downtown"/>
+
+                <ImageView
+                    android:id="@+id/ttd_outdoor_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ttd_outdoor_recreation"/>
+
+                <ImageView
+                    android:id="@+id/ttd_parks_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ttd_parks_monuments"/>
+
+                <ImageView
+                    android:id="@+id/ttd_shopping_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ttd_shopping"/>
+
+                <ImageView
+                    android:id="@+id/ttd_sports_image_view"
+                    android:layout_width="@dimen/thumb_nail_height"
+                    android:layout_height="@dimen/thumb_nail_height"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ttd_sports"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@color/colorTTDBackground"
+            android:textColor="@color/colorText"
+            android:textSize="12sp"
+            android:text="@string/ttd_source_listing"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/colorPresBackground">
+
+    <ImageView
+        android:id="@+id/president_image_view"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/pres_number_text_view"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/president_image_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="@color/colorPresText"
+        tools:text="1st President"/>
+
+    <LinearLayout
+        android:id="@+id/president_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:paddingLeft="16dp"
+        android:layout_toRightOf="@id/president_image_view">
+
+        <TextView
+            android:id="@+id/pres_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPresText"
+            android:textStyle="bold"
+            tools:text="George Washington" />
+
+        <TextView
+            android:id="@+id/pres_election_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorPresText"
+            tools:text="Election(s): 1(1788) and 2(1792)" />
+
+        <TextView
+            android:id="@+id/pres_term_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorPresText"
+            tools:text="Term as President: 1789 - 1797" />
+
+    </LinearLayout>
+
+</RelativeLayout>
